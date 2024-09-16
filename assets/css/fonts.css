@@ -1,0 +1,48 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans+KR:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+/* Pretendard */
+@font-face {
+  font-family: 'Pretendard';
+  src: url('../font/Pretendard-Bold.woff') format('woff');
+  font-weight: 700;
+}
+@font-face {
+  font-family: 'Pretendard';
+  src: url('../font/Pretendard-Medium.woff') format('woff');
+  font-weight: 500;
+}
+@font-face {
+  font-family: 'Pretendard';
+  src: url('../font/Pretendard-Regular.woff') format('woff');
+  font-weight: 400;
+}
+
+
+
+/* CreatoDisplay */
+@font-face {
+  font-family: 'CreatoDisplay';
+  src: url('../font/CreatoDisplay-Bold.woff2') format('woff');
+  font-weight: 700;
+}
+@font-face {
+  font-family: 'CreatoDisplay';
+  src: url('../font/CreatoDisplay-Medium.woff2') format('woff');
+  font-weight: 500;
+}
+@font-face {
+  font-family: 'CreatoDisplay';
+  src: url('../font/CreatoDisplay-Regular.woff2') format('woff');
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'CreatoDisplay';
+  src: url('../font/CreatoDisplay-Light.woff2') format('woff');
+  font-weight: 300;
+}
+

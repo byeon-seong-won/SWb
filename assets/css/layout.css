@@ -1,0 +1,138 @@
+@import './fonts.css';
+@import './reset.css';
+@import './common.css';
+
+
+header {
+  position: fixed;
+  color: #fff;
+  padding: 40px 60px;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+header > h1 > a {
+  font-size: 25px;
+  color: #fff;
+  font-weight: 300;
+}
+
+header .util-area ul {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  justify-content: space-between;
+}
+
+
+footer {
+  width: 100%;
+  position: relative;
+  padding: 100px 50px;
+  /* margin-top: 200px; */
+}
+footer:before {
+  /* content: ''; */
+  position: absolute;
+  height: 1px;
+  width: 100%;
+  background: rgba(255, 255, 255,0.2);
+  top: 0;
+  left: 0;
+}
+footer h2 {
+  font-size: 50px;
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+footer > div {
+  position: relative;
+  width: 100%;
+}
+footer ul {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+footer ul li {
+  flex: 1;
+  color: #fff;
+}
+footer ul .video video {
+  height: 300px;
+  width: 100%;
+  object-fit: cover;
+}
+footer ul li p {
+  font-size: 26px;
+  font-weight: bold;
+  color: #fff;
+  text-transform: uppercase;
+}
+footer ul li a {
+  font-size: 20px;
+  font-weight: 300;
+  transition: .5s;
+}
+footer ul .contact {
+  display: flex;
+  flex-direction: column;
+}
+footer ul .link {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 10px
+}
+footer ul .link a {
+  font-size: 18px;
+}
+footer ul a:hover {
+  opacity: .5;
+}
+footer small {
+  display: block;
+  text-align: right;
+  color: #ddd;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+
+
+
+
+@media (max-width:1024px) {
+
+  footer > div {
+    padding: 0 20px 20px;
+    width: 100%;
+  }
+  footer ul {
+    margin-top: 20px;
+  }
+  footer ul .contact {
+    margin-bottom: 0;
+  }
+  footer ul li a {
+    font-size: 16px;
+  }
+  footer ul .link a {
+    font-size: 14px;
+  }
+  footer small {
+    font-size: 12px;
+    margin-top: 0;
+  }
+
+
+
+
+
+
+}
