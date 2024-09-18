@@ -628,9 +628,18 @@
 
 @media (max-width:768px) {
   .sc-visual .mo-display .mo-cont h3 {
-    font-size: 50px;
-    width: 80%;
-    text-align: center;
+    font-size: 45px;
+    width: 90%;
+  }
+  .sc-about .inner .group-cont br {
+    display: none;
+  }
+  .sc-main .prj-item .info-area p {
+    font-size: 16px;
+  }
+  .sc-main .prj-item .info-area .goReview {
+    margin-top: 5px;
+    font-size: 15px;
   }
   .sc-about .inner .headline,
   .sc-main .headline {
@@ -638,5 +647,21 @@
   }
   .sc-main .prj-item {
     height: 400px;
+  }
+  .sc-fe {
+    margin-top: 100px;
+  }
+  .sc-fe .fe-item .link-box {
+    margin-top: 5px;
+  }
+  .sc-fe .fe-item .thumb-area {
+    flex: 1;
+  }
+  .sc-fe .fe-item .info-area p {
+    font-size: 18px;
+  }
+  .sc-work .headline {
+    margin-top: 100px;
+    font-size: 30px;
   }
 }
