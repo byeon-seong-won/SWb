@@ -10,18 +10,13 @@ ul {list-style: none;}
 form, input {border: none;}
 
 
-
 body {
   font-family: "CreatoDisplay", 'Pretendard', sans-serif;
   background: #000;
   letter-spacing: -.02em;
   word-break: keep-all;
-  /* mix-blend-mode: difference; */
 }
-
-
-
-html {
+/* html {
   bottom: 0;
   left: 0;
   overflow: hidden;
@@ -38,4 +33,4 @@ html {
   overflow: hidden;
   overflow-y: auto;
   width: 100%;
-}
+} */

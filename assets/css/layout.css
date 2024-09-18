@@ -3,6 +3,9 @@
 @import './common.css';
 
 
+
+
+/* header */
 header {
   position: fixed;
   color: #fff;
@@ -13,43 +16,33 @@ header {
   justify-content: space-between;
   width: 100%;
 }
-
 header > h1 > a {
-  font-size: 25px;
+  font-size: 18px;
   color: #fff;
   font-weight: 300;
 }
 
-header .util-area ul {
-  display: flex;
-  align-items: center;
-  gap: 50px;
-  justify-content: space-between;
+
+
+/* main */
+main {
+  border-bottom: .01rem solid #222;
 }
 
 
+/* footer */
 footer {
   width: 100%;
   position: relative;
   padding: 100px 50px;
-  /* margin-top: 200px; */
 }
-footer:before {
-  /* content: ''; */
-  position: absolute;
-  height: 1px;
-  width: 100%;
-  background: rgba(255, 255, 255,0.2);
-  top: 0;
-  left: 0;
-}
-footer h2 {
+footer .footer-headline {
   font-size: 50px;
   color: #fff;
   font-weight: bold;
   text-transform: uppercase;
 }
-footer > div {
+footer .footer-cont {
   position: relative;
   width: 100%;
 }
@@ -108,10 +101,17 @@ footer small {
 
 
 @media (max-width:1024px) {
-
-  footer > div {
-    padding: 0 20px 20px;
-    width: 100%;
+  header > h1 > a {
+    font-size: 16px;
+  }
+  footer {
+    padding: 50px 20px;
+  }
+  footer .footer-cont {
+    padding: 0;
+  }
+  footer .footer-headline {
+    font-size: 40px;
   }
   footer ul {
     margin-top: 20px;
@@ -129,10 +129,31 @@ footer small {
     font-size: 12px;
     margin-top: 0;
   }
+}
 
 
 
-
-
-
+@media (max-width:768px) {
+  header {
+    padding: 20px;
+  }
+  header .copy-area {
+    display: none;
+  }
+  footer .footer-headline {
+    font-size: 25px;
+  }
+  footer ul {
+    margin-top: 30px;
+    flex-direction: column;
+    align-items: start;
+  }
+  footer ul .link {
+    margin-top: 5px;
+  }
+  footer small {
+    text-align: left;
+    margin-top: 20px;
+    color: #999;
+  }
 }
