@@ -660,6 +660,9 @@
   .sc-fe .fe-item .info-area p {
     font-size: 18px;
   }
+  .sc-work::before {
+    content: none;
+  }
   .sc-work .headline {
     margin-top: 100px;
     font-size: 30px;
