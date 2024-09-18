@@ -187,39 +187,39 @@
       });
 
       // prj-item hover 2) scramble
-      $(".prj-item").each(function (index, element){
-        if (!element.animation) {
-          var currentScramble = new ScrambleText( 
-            document.getElementById('tit-scr0' + (index+1)),
-            {
-              timeOffset: 100 + index * 10, 
-              chars: [
-                'A', 'B', 'C', 'D', 'E',
-                'F', 'G', 'H', 'I', 'J',
-                'K', 'L', 'M', 'N', 'O',
-                'P', 'Q', 'R', 'S', 'T', 'U',
-                'V', 'W', 'X', 'Y', 'Z'
-              ],
-            }
-          );
-          element.animation = currentScramble;
-          element.animationStopped = false; 
-        }
-      });
+    //   $(".prj-item").each(function (index, element){
+    //     if (!element.animation) {
+    //       var currentScramble = new ScrambleText( 
+    //         document.getElementById('tit-scr0' + (index+1)),
+    //         {
+    //           timeOffset: 100 + index * 10, 
+    //           chars: [
+    //             'A', 'B', 'C', 'D', 'E',
+    //             'F', 'G', 'H', 'I', 'J',
+    //             'K', 'L', 'M', 'N', 'O',
+    //             'P', 'Q', 'R', 'S', 'T', 'U',
+    //             'V', 'W', 'X', 'Y', 'Z'
+    //           ],
+    //         }
+    //       );
+    //       element.animation = currentScramble;
+    //       element.animationStopped = false; 
+    //     }
+    //   });
 
-      $(".prj-item").on('mouseenter', function () {
-        if (!this.animationStopped) { 
-          this.animation.start().play();
-        }
-      });
-      $(".prj-item").on('mouseleave', function () {
-        this.animation.stop(1);
-        this.animationStopped = true;  
-      });
-    } else {
-      document.removeEventListener("mousemove", null);
-      $(".prj-item .thumb-wrap").off('mouseover mouseleave');
-      $(".prj-item").off('mouseenter mouseleave');
+    //   $(".prj-item").on('mouseenter', function () {
+    //     if (!this.animationStopped) { 
+    //       this.animation.start().play();
+    //     }
+    //   });
+    //   $(".prj-item").on('mouseleave', function () {
+    //     this.animation.stop(1);
+    //     this.animationStopped = true;  
+    //   });
+    // } else {
+    //   document.removeEventListener("mousemove", null);
+    //   $(".prj-item .thumb-wrap").off('mouseover mouseleave');
+    //   $(".prj-item").off('mouseenter mouseleave');
     }
   }
 
