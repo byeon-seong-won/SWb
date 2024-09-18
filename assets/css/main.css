@@ -327,8 +327,8 @@
   margin-top: 25px;
 }
 .sc-fe .fe-item .link-box a {
-  background: #eee;
-  color: #333;
+  border: 1px solid #eee;
+  color: #eee;
   border-radius: 5px;
   padding: 5px;
   display: inline-block;
@@ -336,8 +336,8 @@
   transition: .3s;
 }
 .sc-fe .fe-item .link-box a:hover {
-  background: #333;
-  color: #fff;
+  background: #eee;
+  color: #333;
 }
 .sc-fe .fe-item .thumb-area p {
   font-size: 35px;
