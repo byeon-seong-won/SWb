@@ -69,7 +69,7 @@
                   });
                   setTimeout(()=> {
                     wordChange();
-                  },500)
+                  },1000)
                 }
               },
             }
@@ -90,7 +90,7 @@
       setTimeout(()=> {
         startIntroMotion();
       }
-    ,500)
+    ,800)
 
     function startIntroMotion() {
       const introMotion = gsap.timeline({
