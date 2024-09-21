@@ -115,8 +115,8 @@
         }, "introEnd")
       }
   }
-  gsap.to(".sc-visual .ico-desc-01", { duration: 2, rotate: 18, repeat: -1, yoyo: true});
-  gsap.to(".sc-visual .ico-desc-02", { duration: 2, scale:1.13, repeat: -1, yoyo: true});
+  gsap.to(".sc-visual .ico-desc-01", { ease:'none', duration: 2, rotate: 18, repeat: -1, yoyo: true});
+  gsap.to(".sc-visual .ico-desc-02", { ease:'none', duration: 1.5, scale:1.15, repeat: -1, yoyo: true});
 
 
   

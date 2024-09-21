@@ -242,11 +242,15 @@
   color:#fafaf8;
   font-weight: 400;
 }
-.sc-main .prj-item .info-area span {
+.sc-main .prj-item .info-area span:nth-of-type(1) {
+  font-weight: 300;
+  font-size: 18px;
+}
+.sc-main .prj-item .info-area span:nth-of-type(2) {
   letter-spacing: 0.1rem;
   display: block;
-  margin-top: 5px;
-  font-size: 18px;
+  margin-top: 8px;
+  font-size: 16px;
   color: #efefef;
   font-weight: bold;
 }
@@ -425,10 +429,19 @@
 .sc-work .work-item .title > span {
   font-size: 20px;
 }
-.sc-work .work-item .desc p {
+.sc-work .work-item .desc li {
   font-size: 20px;
   width: 70%;
   color: #fff;
+}
+.sc-work .work-item .desc li+li {
+  margin-top: 5px;
+}
+.sc-work .work-item .desc .desc-title {
+  margin-bottom: 20px;
+}
+.sc-work .work-item .desc li:last-child {
+  list-style-type: none;
 }
 .sc-work .work-item .desc span {
   display: block;
@@ -522,7 +535,7 @@
   .sc-work .work-item .title {
     font-size: 22px;
   }
-  .sc-work .work-item .desc p {
+  .sc-work .work-item .desc li {
     font-size: 18px;
   }
   .sc-fe .fe-item .info-area p {
@@ -607,6 +620,9 @@
   .sc-work .work-list {
     margin: 100px auto;
   }
+  .sc-work .work-item .desc li {
+    width: 100%;
+  }
   .sc-work .work-item a {
     display: flex;
     flex-direction: column;
@@ -616,7 +632,7 @@
     margin-top: 10px;
     font-weight: bold;
   }
-  .sc-work .work-item .desc p {
+  .sc-work .work-item .desc li {
     width: 100%;
     font-size: 14px;
     margin-top: 5px;
@@ -671,4 +687,5 @@
     margin-top: 100px;
     font-size: 30px;
   }
+
 }
