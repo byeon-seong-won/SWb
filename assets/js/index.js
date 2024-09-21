@@ -115,7 +115,11 @@
         }, "introEnd")
       }
   }
+  gsap.to(".sc-visual .ico-desc-01", { duration: 2, rotate: 18, repeat: -1, yoyo: true});
+  gsap.to(".sc-visual .ico-desc-02", { duration: 2, scale:1.13, repeat: -1, yoyo: true});
 
+
+  
 
 
 

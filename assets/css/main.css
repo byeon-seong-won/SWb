@@ -23,6 +23,7 @@
   display: inline-block;
   overflow: hidden; 
   padding-bottom: 5px;
+  text-transform: uppercase;
 }
 .intro #sct::after {
   content: '';
@@ -327,16 +328,17 @@
   margin-top: 25px;
 }
 .sc-fe .fe-item .link-box a {
-  background: #eee;
+  background: #fff;
   color: #333;
   border-radius: 5px;
-  padding: 5px;
+  padding: 6px;
   display: inline-block;
-  font-size: 18px;
+  font-size: 16px;
   transition: .3s;
 }
 .sc-fe .fe-item .link-box a:hover {
-  opacity: 0.5;
+  background: #333;
+  color: #fff;
 }
 .sc-fe .fe-item .thumb-area p {
   font-size: 35px;
@@ -443,6 +445,9 @@
 
 
 @media (max-width:1680px) {
+  .sc-visual .line-ctn img {
+    width: 110px;
+  }
   .sc-main .prj-item {
     height: 700px;
   }
